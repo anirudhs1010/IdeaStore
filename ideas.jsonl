@@ -1,3 +1,5 @@
 {"title": "# Agentic Trading agent", "content": "Use Darwin Godel machine along with Model Context Protocol to trade on Kalshi and identify arbitrage opportunities"}
 {"title": "Security (red team) agent", "content": "Based on Cisco's Hypershield architecture, building a similar tool to exploit the vulnerabilities instead of prevention, emphasis on a pipeline to get data"}
 {"title": "Algorithm Learning web app", "content": "Depending on time to solve and difficulty, recommends problems to solve, takes problems from LeetCode, Codeforces, Atcoder, and solved.ac"}
+{"title": "AWS Network Security Pipeline", "content": "Submit to AWS hackathon"}
+{"title": "Twitter Clone", "content": "Focus on system architecture and low latency project"}
