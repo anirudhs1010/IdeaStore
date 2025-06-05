@@ -12,7 +12,7 @@ def append_idea_to_md(message: str):
     else:
         title, description = lines[0], ''
     with open("ideas.md", "a", encoding="utf-8") as fh:
-        fh.write(f"\n# {title.strip()}\n{description.strip()}\n")
+        fh.write(f"\n# {title.strip()}\n{description.strip()}")
 
 def start(update: Update, context: CallbackContext) -> None:
     update.message.reply_text('Send me an idea in the format:\n# ideaname\ndescription')
