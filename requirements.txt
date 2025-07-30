@@ -17,9 +17,9 @@ matplotlib
 narwhals==1.41.0
 numpy<2.0.0
 openai==1.83.0
-packaging==25.0
+packaging>=20,<25
 pandas
-pillow==11.2.1
+pillow>=8.0,<11.0
 plotly
 pydantic==2.11.5
 pydantic_core==2.33.2
@@ -35,5 +35,5 @@ tqdm==4.67.1
 typing-inspection==0.4.1
 typing_extensions==4.14.0
 tzdata==2025.2
-google-generativeai
+google-genai
 llama-cpp-python

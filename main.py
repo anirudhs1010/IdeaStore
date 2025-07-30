@@ -35,15 +35,14 @@ class GeminiProvider(EmbeddingProvider):
     def __init__(self, api_key: str):
         import google.generativeai as genai
         genai.configure(api_key=api_key)
-        self.genai = genai
+        self.client = genai
 
     def get_embedding(self, text: str) -> list[float]:
-        result = self.genai.embed_content(
-            model="models/embedding-001",
-            content=text,
-            task_type="retrieval_document"
+        result = self.client.embed_content(
+            model="embedding-001",
+            content=text
         )
-        return result["embedding"]
+        return result['embedding']
 
 class LlamaProvider(EmbeddingProvider):
     def __init__(self, api_key: str):
